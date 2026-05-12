@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cat of Duty - docs</title>
+        <meta name="description" content="Cat of Duty - docs">
+        <meta name="author" content="Team MGS">
+
+        <meta property="og:title" content="Cat of Duty - docs">
+        <meta property="og:description" content="Documentation for Cat of Duty" />
+        <meta property="og:url" content="https://dyecon.github.io/catofduty">
+        <meta property="og:image" content="https://dyecon.github.io/catofduty/images/ogimage.jpg" />
+        <meta name="twitter:card" content="summary"/>
+        <meta property="og:type" content="website">
+        <link rel="icon" type="image/x-icon" href="https://dyecon.github.io/catofduty/images/favicon.ico">
+    </head>
+    <body>
+        <div id="content" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"></div>
+        <script type="module">
+            import { marked } from 'https://cdn.jsdelivr.net/npm/marked/+esm';
+            async function loadMarkdown() {
+                const res = await fetch('https://raw.githubusercontent.com/dyecon/catofduty/refs/heads/main/README.md');
+                const mdText = await res.text();
+                const html = marked(mdText);
+                document.getElementById('content').innerHTML = html;
+            }
+            loadMarkdown();
+        </script>
+    </body>
+</html>
