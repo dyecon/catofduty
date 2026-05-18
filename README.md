@@ -13,7 +13,7 @@ Cat of Dutyは、第99回五月祭にて東大VRサークル「UT-virtual」が�
 |CPU|Apple M1|Intel Core i7-9700 / AMD Ryzen 5 2600|
 |GPU|Apple M1|NVIDIA GTX 1060 / AMD RX 570|
 |RAM|16GB|16GB|
-|空き容量|700MB以上|700MB以上|
+|空き容量|450MB以上|450MB以上|
 
 ## 操作方法
 - T または マウス左ボタン：発射
@@ -33,7 +33,7 @@ Cat of Dutyは、第99回五月祭にて東大VRサークル「UT-virtual」が�
 <summary>Mac版で、開発元が不明なので開けないという警告が表示された。</summary>
 Apple公式の案内をご確認ください。https://support.apple.com/ja-jp/guide/mac-help/mh40616/mac
 </details>
- 
+
 ## サポート・お問い合わせ
 公式HP
 https://dyecon.github.io/catofduty
