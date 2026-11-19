@@ -13,7 +13,7 @@ Cat of Dutyは、第99回五月祭にて東大VRサークル「UT-virtual」が�
 |CPU|Apple M1|Intel Core i7-9700 / AMD Ryzen 5 2600|
 |GPU|Apple M1|NVIDIA GTX 1060 / AMD RX 570|
 |RAM|16GB|16GB|
-|空き容量|450MB以上|450MB以上|
+|空き容量|2.7GB以上|2.7GB以上|
 
 ## 操作方法
 - T または マウス左ボタン：発射
